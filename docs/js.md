@@ -464,9 +464,9 @@ function callFunction(simulateError = false) {
 }
 
 try {
+  // Traitement pouvant généré une erreur
   console.log('Hello');
-  // Traitement pouvant générant une erreur
-  callFunction(false);
+  callFunction();
   console.log('World');
   callFunction(true);
   console.log('!')
@@ -479,7 +479,7 @@ try {
 
 L'async / await permet d'exécuter des instructions de manière asynchrone. Il permet d'attendre le résultat d'une promesse avant d'exécuter une instruction.
 
-Dans l'exemple ci-dessous, la fonction getData() permet de récupérer des données à l'aide de l'API fetch. L'API fetch permet de faire des requêtes HTTP. La fonction getData() est une fonction asynchrone. Elle est composée du mot clé async. Elle permet d'attendre le résultat de la promesse avant d'exécuter la fonction suivante. La fonction getData() est composée du mot clé await. La fonction getData() attend le résultat de la promesse avant d'exécuter la fonction suivante.
+Dans l'exemple ci-dessous, la fonction getData() permet de récupérer des données à l'aide de l'API fetch. L'API fetch permet de faire des requêtes HTTP. La fonction getData() est une fonction asynchrone grâce à l'ajout du mot clé  `async`. 
 
 ```javascript
 async function getData() {
@@ -494,7 +494,7 @@ getData();
 Il est possible de faire la même chose avec la syntaxe suivante :
 
 ```javascript
-function getData() {
+async function getData() {
   fetch('https://jsonplaceholder.typicode.com/todos/1')
     .then(function(response) {
       return response.json();
@@ -505,4 +505,51 @@ function getData() {
 }
 
 getData();
+```
+
+**Exemple**
+
+L'exemple ci-dessous illustre l'utilisation de l'async / await. 
+
+En regardant la console, on peut voir que les données sont récupérées de manière asynchrone. L'ordre d'exécution des instructions n'est pas garanti. Il est possible que les données de l'id 3 soient récupérées avant les données de l'id 2 par exemple. 
+
+La fonction globalAsync() permet d'attendre le résultat de chaque promesse avant d'exécuter la suivante et de garantir l'ordre d'exécution des instructions.
+
+En fonction des cas d'usage on utilisera ou non l'async / await.
+
+```javascript
+    async function getData(id) {
+        fetch('https://jsonplaceholder.typicode.com/todos/' + id)
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                console.log("The data for " + id);
+                console.debug(data);
+            });
+    }
+
+    async function getDataAsync(id) {
+        const response = await fetch('https://jsonplaceholder.typicode.com/todos/' + id)
+        const data = await response.json();
+        console.log("The data from async for " + id);
+        console.debug(data);
+    }
+
+    async function globalAsync() {
+        console.log('globalAsync');
+        await getDataAsync(1);
+        await getDataAsync(2);
+        await getDataAsync(3);
+    }
+
+    getData(1);
+    getData(2);
+    getData(3);
+
+    getDataAsync(1);
+    getDataAsync(2);
+    getDataAsync(3);
+
+    globalAsync();
 ```

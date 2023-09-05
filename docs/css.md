@@ -237,4 +237,4 @@ Les frameworks permettent de créer des interfaces fluides et responsives. Ils s
 
 Il existe plusieurs frameworks. Les plus connus sont : Bootstrap, Tailwind, Material UI, etc. Dans le cadre du développement de l'application marvel, le framework Material UI sera utilisé. C'est aussi ce framework qui est utilisé pour ce site web.
 
-Material UI est un framework proposé par Google. Il est basé sur le framework [Material Design](https://material.io/design). 
+Material UI est un framework proposé par Google. Il est basé sur le [Material Design](https://material.io/design). 
