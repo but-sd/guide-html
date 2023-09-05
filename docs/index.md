@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Home
 
 Une page web est un document accessible par le protocole HTTP ou HTTPS. Elle est accessible à l'aide d'une URL (Uniform Resource Locator) qui permet de localiser une ressource sur le web.
