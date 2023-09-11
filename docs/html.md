@@ -243,3 +243,24 @@ Elle est généralement utilisée dans la balise `<head>`.
 <link rel="stylesheet" href="style.css">
 ```
 
+## Installation browser-sync
+
+```json
+module.exports = {
+  files: ["**/*.{html,css,js}"],
+  server: {
+    baseDir: "."
+  }
+};
+```
+
+```json
+{
+  "scripts": {
+    "start": "browser-sync start --config bs-config.js"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.29.3"
+  }
+}
+```
