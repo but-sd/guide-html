@@ -6,6 +6,7 @@ nav:
   - HTML: html.md
   - CSS: css.md
   - JS: js.md
+  - Exercices: exercices.md
 
 theme:
   name: material
