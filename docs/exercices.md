@@ -71,6 +71,59 @@
 </body>
 ```
 
+```css
+       .shake {
+           animation: shake 0.5s;
+           animation-iteration-count: infinite;
+       }
+
+       @keyframes shake {
+           0% {
+               transform: translate(1px, 1px) rotate(0deg);
+           }
+
+           10% {
+               transform: translate(-1px, -2px) rotate(-1deg);
+           }
+
+           20% {
+               transform: translate(-3px, 0px) rotate(1deg);
+           }
+
+           30% {
+               transform: translate(3px, 2px) rotate(0deg);
+           }
+
+           40% {
+               transform: translate(1px, -1px) rotate(1deg);
+           }
+
+           50% {
+               transform: translate(-1px, 2px) rotate(-1deg);
+           }
+
+           60% {
+               transform: translate(-3px, 1px) rotate(0deg);
+           }
+
+           70% {
+               transform: translate(3px, 1px) rotate(-1deg);
+           }
+
+           80% {
+               transform: translate(-1px, -1px) rotate(1deg);
+           }
+
+           90% {
+               transform: translate(1px, 2px) rotate(0deg);
+           }
+
+           100% {
+               transform: translate(1px, -2px) rotate(-1deg);
+           }
+       }
+```
+
 1. Ajouter du texte à l'élément h1
 2. Changer la couleur de l'élément h1
 3. Ajouter un élément h2 juste après l'élément h1
@@ -80,8 +133,8 @@
 7. Ajouter des boutons pour faire boujer l'image et le tableau
 8. Récupérer des données depuis un serveur et les afficher dans le tableau
 
-
-<!-- **Solution**
+<!-- 
+**Solution**
 
 <details>
 
@@ -166,8 +219,6 @@ caption.addEventListener("mouseout", () => {
 ```
 
 7. Ajouter des boutons pour faire boujer l'image et le tableau
-
-=== "Javascript"
 
 ```js
 /**
