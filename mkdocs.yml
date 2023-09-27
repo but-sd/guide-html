@@ -8,6 +8,7 @@ nav:
   - JS: js.md
   - Outils: outils.md
   - Exercices: exercices.md
+  - marvel app: marvel-app.md
 
 theme:
   name: material
