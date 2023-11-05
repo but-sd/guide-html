@@ -29,6 +29,8 @@ theme:
         lang: fr
 
 markdown_extensions:
+  # Permet par exemple d'ajouter des attributs aux liens
+  - attr_list
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span

@@ -100,7 +100,7 @@ a:hover {
 }
 ```
 
-Les états possibles sont : hover, active, focus, etc... Voir la liste des états possibles [ici](https://developer.mozilla.org/fr/docs/Web/CSS/Pseudo-classes).
+Les états possibles sont : hover, active, focus, etc... Voir la liste des états possibles [ici](https://developer.mozilla.org/fr/docs/Web/CSS/Pseudo-classes){:target="_blank"}.
 
 
 Ici, l'élément a aura une couleur rouge lorsqu'il sera survolé.
@@ -116,7 +116,7 @@ p::first-line {
 }
 ```
 
-Les parties possibles sont : first-line, first-letter, etc... Voir la liste des parties possibles [ici](https://developer.mozilla.org/fr/docs/Web/CSS/Pseudo-%C3%A9l%C3%A9ments).
+Les parties possibles sont : first-line, first-letter, etc... Voir la liste des parties possibles [ici](https://developer.mozilla.org/fr/docs/Web/CSS/Pseudo-%C3%A9l%C3%A9ments){:target="_blank"}.
 
 Ici, la première ligne de l'élément p aura une couleur rouge.
 
@@ -235,6 +235,8 @@ Les media queries permettent de définir des règles css en fonction de la taill
 
 Les frameworks permettent de créer des interfaces fluides et responsives. Ils sont composés de composants qui peuvent être réutilisés. Ils permettent de gagner du temps. Ils permettent également de créer des interfaces fluides et responsives en réduisant le nombre de lignes de code css.
 
-Il existe plusieurs frameworks. Les plus connus sont : Bootstrap, Tailwind, Material UI, etc. Dans le cadre du développement de l'application marvel, le framework Material UI sera utilisé. C'est aussi ce framework qui est utilisé pour ce site web.
+Il existe plusieurs frameworks. Les plus connus sont : Bootstrap, Tailwind, Material UI, etc. 
 
-Material UI est un framework proposé par Google. Il est basé sur le [Material Design](https://material.io/design). 
+C'est par exemple le framework **Material UI** qui est utilisé pour ce guide.
+
+Material UI est un framework proposé par Google. Il est basé sur le [Material Design](https://material.io/design){:target="_blank"}. 
