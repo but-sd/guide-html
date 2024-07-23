@@ -475,6 +475,25 @@ try {
 }
 ```
 
+## Promesses
+
+Les promesses permettent d'exécuter des instructions de manière asynchrone. Elles permettent d'attendre le résultat d'une promesse avant d'exécuter une instruction.
+
+Dans l'exemple ci-dessous, la fonction getData() permet de récupérer des données à l'aide de l'API fetch. L'API fetch permet de faire des requêtes HTTP. La fonction getData() retourne une promesse. 
+
+```javascript
+function getData() {
+  return fetch('https://jsonplaceholder.typicode.com/todos/1')
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(data) {
+      return data;
+    });
+}
+```
+
+
 ## Async / Await
 
 L'async / await permet d'exécuter des instructions de manière asynchrone. Il permet d'attendre le résultat d'une promesse avant d'exécuter une instruction.
@@ -553,3 +572,6 @@ En fonction des cas d'usage on utilisera ou non l'async / await.
 
     globalAsync();
 ```
+
+
+
