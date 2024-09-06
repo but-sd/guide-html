@@ -28,10 +28,13 @@ La structure minimale d'une page web est composée de 3 balises et d'un doctype:
 
 ## Balises
 
-Une balise est un élément qui permet de structurer et de mettre en forme le contenu d'une page web. Elle est composée d'un nom et de deux chevrons. Le HTML n'est pas case sensitive. Cela signifie que les balises peuvent être écrites en majuscules ou en minuscules.
+Une balise est un élément qui permet de structurer et de mettre en forme le contenu d'une page web. Elle est composée d'un nom et de deux chevrons. Le HTML n'est pas case sensitive. Cela signifie que les balises peuvent être écrites en majuscules ou en minuscules. Toutefois pour une meilleure lisibilité il est préférable de respecter une convention de nommage. Par exemple, les balises peuvent être écrites en minuscules.
 
 ```html
 <balise></balise>
+<Balise></Balise>
+<BALISE></BALISE>
+<BALISE></balise>
 ```
 
 Une balise peut être :
@@ -56,7 +59,9 @@ Une balise peut contenir :
 </div>
 ```
 
-Un commentaire permet d'ajouter un texte qui ne sera pas interprété par le navigateur. Il est composé de `<!--` et de `-->`. Ainsi, on peut ajouter des commentaires dans le code HTML pour le rendre plus lisible. Attention toute fois, ces commentaires seront visibles dans le code source de la page web. Il ne faut donc pas y ajouter d'informations sensibles.
+Ici la balise `<p>` est une balise ouvrante. La balise `</p>` est une balise fermante. La balise `<br/>` est une balise auto-fermante. La balise `<span>` est une balise contenue dans la balise `<p>`. La balise `<p>` est une balise contenue dans la balise `<div>`.
+
+Un commentaire permet d'ajouter un texte qui ne sera pas interprété par le navigateur. Il est composé de `<!--` et de `-->`. Ainsi, on peut ajouter des commentaires dans le code HTML pour le rendre plus lisible. Attention toutefois, ces commentaires seront visibles dans le code source de la page web. Il ne faut donc pas y ajouter d'informations sensibles.
 
 ## Attributs
 
@@ -91,7 +96,7 @@ Certains attributs sont booléens. Cela signifie qu'ils n'ont pas de valeur. Ils
 - `aria-*` : définit un attribut ARIA.
 - role : définit le rôle d'un élément.
 
-ARIA (**A**ccessible **R**ich **I**nternet **A**pplications) est un ensemble d'attributs qui permettent d'améliorer l'accessibilité d'une page web. Ils permettent de décrire le contenu d'une page web. Ils sont utilisés par les technologies d'assistance comme les lecteurs d'écran. Ils permettent également d'améliorer le référencement d'une page web.
+ARIA (**A**ccessible **R**ich **I**nternet **A**pplications) est un ensemble d'attributs qui permettent d'améliorer l'accessibilité d'une page web. Ils permettent de décrire le contenu d'une page web. Ils sont utilisés par les technologies d'assistance comme les lecteurs d'écran (pour les personnes ayant une déficience visuelle par exemple). Ils permettent également d'améliorer le référencement d'une page web.
 
 De la même façon le `rôle` d'un élément permet lui aussi d'améliorer l'accessibilité d'une page web. Il permet de décrire le rôle d'un élément (bouton, lien, liste, etc...).
 
@@ -116,9 +121,9 @@ La balise `<head>` permet de définir un ensemble d'informations sur le document
 - `<link>` : définit un lien vers une ressource externe.
 - `<style>` : définit des styles CSS.
 
-La balise <meta> permet de définir des métadonnées sur le document. Elle est composée d'un attribut `name` et d'un attribut `content`. Elle peut être utilisée pour définir l'encodage du document, la description du document, les mots-clés du document, l'auteur du document, le viewport du document... Et son contenu peut être utilisé par les moteurs de recherche pour référencer le document.
+La balise <meta> permet de définir des métadonnées sur le document. Elle est composée d'un attribut `name` et d'un attribut `content`. Elle peut être utilisée pour définir l'encodage du document, la description du document, les mots-clés du document, l'auteur du document... Et son contenu peut être utilisé par les moteurs de recherche pour référencer le document.
 
-La bamise <meta> permet aussi de définir le viewport du document. Le viewport permet de définir la largeur et l'échelle d'un document. Il est utilisé pour rendre un document responsive. Il est composé d'un attribut `name` et d'un attribut `content`. L'attribut `name` doit avoir la valeur `viewport`. L'attribut `content` doit avoir la valeur `width=device-width, initial-scale=1.0`.
+La balise <meta> permet aussi de définir le viewport du document. Le viewport permet de définir la largeur et l'échelle d'un document. Il est utilisé pour rendre un document responsive. Il est composé d'un attribut `name` et d'un attribut `content`. L'attribut `name` doit avoir la valeur `viewport`. L'attribut `content` doit avoir la valeur `width=device-width, initial-scale=1.0`.
 
 Un document Responsive Web Design est un document qui s'adapte à la taille de l'écran de l'appareil sur lequel il est affiché ( ordinateur, tablette, téléphone...). Il est composé de plusieurs points de rupture. Un point de rupture est une taille d'écran à partir de laquelle le document change de mise en page. 
 
