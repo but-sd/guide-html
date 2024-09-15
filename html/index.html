@@ -1,0 +1,735 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../css/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+    
+      
+        <title>HTML - memo html css js</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.35f28582.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#html" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href=".." title="memo html css js" class="md-header__button md-logo" aria-label="memo html css js" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            memo html css js
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              HTML
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  HTML
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../css/" class="md-tabs__link">
+        
+  
+    
+  
+  CSS
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../js/" class="md-tabs__link">
+        
+  
+    
+  
+  JS
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../exercices/" class="md-tabs__link">
+        
+  
+    
+  
+  Exercices
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="memo html css js" class="md-nav__button md-logo" aria-label="memo html css js" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    memo html css js
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    HTML
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    HTML
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#structure-dune-page-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structure d'une page web
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#balises" class="md-nav__link">
+    <span class="md-ellipsis">
+      Balises
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#attributs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attributs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#attributs-daccessibilite" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attributs d'accessibilité
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quelques-balises" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quelques balises
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../css/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CSS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../js/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    JS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../exercices/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Exercices
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="html">HTML</h1>
+<p>Le HTML (<strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage) est un langage de balisage. Il permet de structurer et de mettre en forme le contenu d'une page web. </p>
+<h2 id="structure-dune-page-web">Structure d'une page web</h2>
+<p>La structure minimale d'une page web est composée de 3 balises et d'un doctype:</p>
+<ul>
+<li><code>&lt;!DOCTYPE html&gt;</code> : définit le type de document comme étant un document HTML.</li>
+<li><code>&lt;html&gt;</code> : définit le document comme étant un document HTML.</li>
+<li><code>&lt;head&gt;</code> : définit un ensemble d'informations sur le document.</li>
+<li><code>&lt;body&gt;</code> : définit le corps du document.</li>
+</ul>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cp">&lt;!DOCTYPE html&gt;</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&quot;fr&quot;</span><span class="p">&gt;</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Titre<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Titre<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Paragraphe<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</span></code></pre></div>
+<h2 id="balises">Balises</h2>
+<p>Une balise est un élément qui permet de structurer et de mettre en forme le contenu d'une page web. Elle est composée d'un nom et de deux chevrons. Le HTML n'est pas case sensitive. Cela signifie que les balises peuvent être écrites en majuscules ou en minuscules. Toutefois pour une meilleure lisibilité il est préférable de respecter une convention de nommage. Par exemple, les balises peuvent être écrites en minuscules.</p>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">&lt;</span><span class="nt">balise</span><span class="p">&gt;&lt;/</span><span class="nt">balise</span><span class="p">&gt;</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="p">&lt;</span><span class="nt">Balise</span><span class="p">&gt;&lt;/</span><span class="nt">Balise</span><span class="p">&gt;</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="p">&lt;</span><span class="nt">BALISE</span><span class="p">&gt;&lt;/</span><span class="nt">BALISE</span><span class="p">&gt;</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="p">&lt;</span><span class="nt">BALISE</span><span class="p">&gt;&lt;/</span><span class="nt">balise</span><span class="p">&gt;</span>
+</span></code></pre></div>
+<p>Une balise peut être :</p>
+<ul>
+<li>une balise ouvrante : <code>&lt;balise&gt;</code></li>
+<li>une balise fermante : <code>&lt;/balise&gt;</code></li>
+<li>une balise auto-fermante : <code>&lt;balise /&gt;</code></li>
+</ul>
+<p>Une balise peut contenir :</p>
+<ul>
+<li>du texte</li>
+<li>d'autres balises</li>
+</ul>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Paragraphe 1<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>    Paragraphe 2
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>    <span class="p">&lt;</span><span class="nt">span</span><span class="p">&gt;</span>Span<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>    <span class="p">&lt;</span><span class="nt">br</span><span class="p">/&gt;</span> <span class="cm">&lt;!-- Saut de ligne --&gt;</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>  <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></code></pre></div>
+<p>Ici la balise <code>&lt;p&gt;</code> est une balise ouvrante. La balise <code>&lt;/p&gt;</code> est une balise fermante. La balise <code>&lt;br/&gt;</code> est une balise auto-fermante. La balise <code>&lt;span&gt;</code> est une balise contenue dans la balise <code>&lt;p&gt;</code>. La balise <code>&lt;p&gt;</code> est une balise contenue dans la balise <code>&lt;div&gt;</code>.</p>
+<p>Un commentaire permet d'ajouter un texte qui ne sera pas interprété par le navigateur. Il est composé de <code>&lt;!--</code> et de <code>--&gt;</code>. Ainsi, on peut ajouter des commentaires dans le code HTML pour le rendre plus lisible. Attention toutefois, ces commentaires seront visibles dans le code source de la page web. Il ne faut donc pas y ajouter d'informations sensibles.</p>
+<h2 id="attributs">Attributs</h2>
+<p>Un attribut est un élément qui permet de modifier le comportement ou l'apparence d'une balise. Il est composé d'un nom et d'une valeur.</p>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="p">&lt;</span><span class="nt">balise</span> <span class="na">attribut</span><span class="o">=</span><span class="s">&quot;valeur&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">balise</span><span class="p">&gt;</span>
+</span></code></pre></div>
+<p>Par exemple la balise <code>&lt;a&gt;</code> permet de créer un lien hypertexte. Elle possède un attribut <code>href</code> qui permet de définir l'URL de destination du lien.</p>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;https://google.com&quot;</span><span class="p">&gt;</span>Lien vers Google<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</span></code></pre></div>
+<p>Certains attributs sont obligatoires. Par exemple, l'attribut <code>href</code> est obligatoire pour la balise <code>&lt;a&gt;</code>. D'autres attributs sont optionnels. Par exemple, l'attribut <code>alt</code> est optionnel pour la balise <code>&lt;img&gt;</code>.</p>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;image.jpg&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;Image&quot;</span><span class="p">&gt;</span>
+</span></code></pre></div>
+<p>Certains attributs sont booléens. Cela signifie qu'ils n'ont pas de valeur. Ils sont utilisés pour activer ou désactiver une fonctionnalité. Par exemple, l'attribut <code>disabled</code> permet de désactiver un élément. L'attribut <code>checked</code> permet de cocher une case à cocher.</p>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">disabled</span><span class="p">&gt;</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">checked</span><span class="p">&gt;</span>
+</span></code></pre></div>
+<h2 id="attributs-daccessibilite">Attributs d'accessibilité</h2>
+<ul>
+<li><code>alt</code> : définit un texte alternatif pour une image.</li>
+<li><code>tabindex</code> : définit l'ordre de tabulation.</li>
+<li><code>aria-*</code> : définit un attribut ARIA.</li>
+<li>role : définit le rôle d'un élément.</li>
+</ul>
+<p>ARIA (<strong>A</strong>ccessible <strong>R</strong>ich <strong>I</strong>nternet <strong>A</strong>pplications) est un ensemble d'attributs qui permettent d'améliorer l'accessibilité d'une page web. Ils permettent de décrire le contenu d'une page web. Ils sont utilisés par les technologies d'assistance comme les lecteurs d'écran (pour les personnes ayant une déficience visuelle par exemple). Ils permettent également d'améliorer le référencement d'une page web.</p>
+<p>De la même façon le <code>rôle</code> d'un élément permet lui aussi d'améliorer l'accessibilité d'une page web. Il permet de décrire le rôle d'un élément (bouton, lien, liste, etc...).</p>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>```html
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;image.jpg&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;Image&quot;</span><span class="p">&gt;</span>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">tabindex</span><span class="o">=</span><span class="s">&quot;1&quot;</span><span class="p">&gt;</span>
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">tabindex</span><span class="o">=</span><span class="s">&quot;2&quot;</span><span class="p">&gt;</span>
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>
+</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">role</span><span class="o">=</span><span class="s">&quot;button&quot;</span> <span class="na">aria-pressed</span><span class="o">=</span><span class="s">&quot;false&quot;</span><span class="p">&gt;</span>Bouton<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></code></pre></div>
+<h2 id="quelques-balises">Quelques balises</h2>
+<p><strong>HEAD</strong></p>
+<p>La balise <code>&lt;head&gt;</code> permet de définir un ensemble d'informations sur le document. Elle contient généralement :</p>
+<ul>
+<li><code>&lt;title&gt;</code> : définit le titre du document.</li>
+<li><code>&lt;meta&gt;</code> : définit des métadonnées sur le document.</li>
+<li><code>&lt;link&gt;</code> : définit un lien vers une ressource externe.</li>
+<li><code>&lt;style&gt;</code> : définit des styles CSS.</li>
+</ul>
+<p>La balise <meta> permet de définir des métadonnées sur le document. Elle est composée d'un attribut <code>name</code> et d'un attribut <code>content</code>. Elle peut être utilisée pour définir l'encodage du document, la description du document, les mots-clés du document, l'auteur du document... Et son contenu peut être utilisé par les moteurs de recherche pour référencer le document.</p>
+<p>La balise <meta> permet aussi de définir le viewport du document. Le viewport permet de définir la largeur et l'échelle d'un document. Il est utilisé pour rendre un document responsive. Il est composé d'un attribut <code>name</code> et d'un attribut <code>content</code>. L'attribut <code>name</code> doit avoir la valeur <code>viewport</code>. L'attribut <code>content</code> doit avoir la valeur <code>width=device-width, initial-scale=1.0</code>.</p>
+<p>Un document Responsive Web Design est un document qui s'adapte à la taille de l'écran de l'appareil sur lequel il est affiché ( ordinateur, tablette, téléphone...). Il est composé de plusieurs points de rupture. Un point de rupture est une taille d'écran à partir de laquelle le document change de mise en page. </p>
+<p>Les outils de développement des navigateurs permettent de simuler un appareil mobile. Par exemple, dans Google Chrome, on peut simuler un appareil mobile en cliquant sur <code>Toggle device toolbar</code> dans le menu des outils de développement.</p>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;viewport&quot;</span> <span class="na">content</span><span class="o">=</span><span class="s">&quot;width=device-width, initial-scale=1.0&quot;</span><span class="p">&gt;</span>
+</span></code></pre></div>
+<p>Ce site web est responsive. Vous constaterez que la mise en page change en fonction de la taille de l'écran. Par exemple la table des matières est affichée en permanence sur un écran large. Elle est cachée par défaut sur un écran plus petit. Elle peut être affichée en cliquant sur le bouton <code>Table des matières</code>.</p>
+<p><strong>BODY</strong></p>
+<p>La balise <code>&lt;body&gt;</code> permet de définir le corps du document. Elle peut contenir par exemple :</p>
+<ul>
+<li><code>&lt;h1&gt;</code> : définit un titre de niveau 1.</li>
+<li><code>&lt;p&gt;</code> : définit un paragraphe.</li>
+<li><code>&lt;a&gt;</code> : définit un lien hypertexte.</li>
+<li><code>&lt;img&gt;</code> : définit une image.</li>
+<li><code>&lt;ul&gt;</code> : définit une liste non ordonnée.</li>
+<li><code>&lt;ol&gt;</code> : définit une liste ordonnée.</li>
+<li><code>&lt;li&gt;</code> : définit un élément de liste.</li>
+<li><code>&lt;div&gt;</code> : définit une division ou un conteneur générique.</li>
+<li><code>&lt;span&gt;</code> : définit une section générique.</li>
+<li><code>&lt;table&gt;</code> : définit un tableau.</li>
+<li><a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element">et bien d'autres</a></li>
+</ul>
+<p><strong>Balises sémantiques</strong></p>
+<p>Les balises sémantiques permettent de définir le rôle d'un élément. Elles permettent de structurer le contenu d'une page web. Elles sont utilisées par les moteurs de recherche pour référencer le contenu d'une page web. Elles permettent également d'améliorer l'accessibilité d'une page web.</p>
+<ul>
+<li><code>&lt;header&gt;</code> : définit un en-tête.</li>
+<li><code>&lt;nav&gt;</code> : définit une barre de navigation.</li>
+<li><code>&lt;main&gt;</code> : définit le contenu principal.</li>
+<li><code>&lt;section&gt;</code> : définit une section.</li>
+<li><code>&lt;article&gt;</code> : définit un article.</li>
+<li><code>&lt;aside&gt;</code> : définit un contenu à part.</li>
+<li><code>&lt;details&gt;</code> : définit des détails supplémentaires.</li>
+<li><code>&lt;summary&gt;</code> : définit un résumé.</li>
+<li><code>&lt;footer&gt;</code> : définit un pied de page.</li>
+</ul>
+<p><strong>Balises de texte</strong></p>
+<p>Les balises de texte permettent de définir le style d'un texte.</p>
+<ul>
+<li><code>&lt;strong&gt;</code> : définit un texte important.</li>
+<li><code>&lt;em&gt;</code> : définit un texte mis en emphase.</li>
+<li><code>&lt;mark&gt;</code> : définit un texte marqué.</li>
+<li><code>&lt;small&gt;</code> : définit un texte de taille réduite.</li>
+<li><code>&lt;del&gt;</code> : définit un texte supprimé.</li>
+</ul>
+<p><strong>Balises de formulaire</strong></p>
+<p>Les balises de formulaire permettent de créer des formulaires.</p>
+<ul>
+<li><code>&lt;form&gt;</code> : définit un formulaire.</li>
+<li><code>&lt;input&gt;</code> : définit un champ de saisie.</li>
+<li><code>&lt;textarea&gt;</code> : définit une zone de texte multiligne.</li>
+<li><code>&lt;button&gt;</code> : définit un bouton.</li>
+<li><code>&lt;select&gt;</code> : définit une liste déroulante.</li>
+<li><code>&lt;option&gt;</code> : définit une option dans une liste déroulante.</li>
+<li><code>&lt;label&gt;</code> : définit un label pour un champ de saisie.</li>
+<li><code>&lt;fieldset&gt;</code> : définit un groupe de champs de saisie.</li>
+<li><code>&lt;legend&gt;</code> : définit une légende pour un groupe de champs de saisie.</li>
+</ul>
+<p><strong>Balises multimédia</strong></p>
+<p>Les balises multimédia permettent d'ajouter des médias à une page web.</p>
+<ul>
+<li><code>&lt;img&gt;</code> : définit une image.</li>
+<li><code>&lt;audio&gt;</code> : définit un fichier audio.</li>
+<li><code>&lt;video&gt;</code> : définit un fichier vidéo.</li>
+<li><code>&lt;source&gt;</code> : définit une source externe pour un fichier audio ou vidéo.</li>
+</ul>
+<p><strong>Balises de programmation</strong></p>
+<p>Les balises de programmation permettent d'ajouter du code à une page web.</p>
+<ul>
+<li><code>&lt;script&gt;</code> : définit un script.</li>
+<li><code>&lt;style&gt;</code> : définit des styles CSS.</li>
+<li><code>&lt;link&gt;</code> : définit un lien vers une ressource externe.</li>
+</ul>
+<p>La balise <code>&lt;script&gt;</code> permet d'ajouter du code JavaScript à une page web. Elle est composée d'un attribut <code>src</code> qui permet de définir l'URL du fichier JavaScript. Elle peut également contenir du code JavaScript directement dans la balise.</p>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;script.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="w">  </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Hello world!&#39;</span><span class="p">);</span>
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></code></pre></div>
+<p>La balise <code>&lt;style&gt;</code> permet d'ajouter du code CSS à une page web. Elle peut contenir du code CSS directement dans la balise.</p>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="w">  </span><span class="nt">h1</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="w">    </span><span class="k">color</span><span class="p">:</span><span class="w"> </span><span class="kc">red</span><span class="p">;</span>
+</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="w">  </span><span class="p">}</span>
+</span><span id="__span-10-5"><a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a><span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
+</span><span id="__span-10-6"><a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a>
+</span><span id="__span-10-7"><a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Titre<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</span></code></pre></div>
+<p>La balise <code>&lt;link&gt;</code> permet de lier une ressource externe à une page web. Elle est composée d'un attribut <code>rel</code> qui permet de définir le type de ressource. Elle est également composée d'un attribut <code>href</code> qui permet de définir l'URL de la ressource.</p>
+<p>Elle peut être utilisée pour lier une feuille de style CSS à une page web. 
+Elle peut également être utilisée pour lier une police de caractère à une page web, lorsque la police de caractère n'est pas disponible sur l'appareil de l'utilisateur. La police de caractère sera alors téléchargée et installée sur l'appareil de l'utilisateur.</p>
+<p>Les polices de caractères par défaut sont définies par le navigateur. Elles peuvent être différentes d'un navigateur à l'autre. Il existe tout de même quelques polices de caractères qui sont installées sur la plupart des appareils. Par exemple les polices de caractères <code>Arial</code>, <code>Helvetica</code>, <code>Times New Roman</code>. Il est possible de définir plusieurs polices de caractères dans une règle CSS. La première police de caractère sera utilisée si elle est disponible sur l'appareil de l'utilisateur. Sinon la deuxième police de caractère sera utilisée si elle est disponible sur l'appareil de l'utilisateur. Et ainsi de suite.</p>
+<p>Elle est généralement utilisée dans la balise <code>&lt;head&gt;</code>.</p>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;style.css&quot;</span><span class="p">&gt;</span>
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;preconnect&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;https://fonts.gstatic.com&quot;</span><span class="p">&gt;</span>
+</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a>    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap&quot;</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span><span class="p">&gt;</span>
+</span><span id="__span-11-5"><a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></code></pre></div>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;style.css&quot;</span><span class="p">&gt;</span>
+</span></code></pre></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "toc.integrate", "content.code.copy", "navigation.top"], "search": "../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+    
+  </body>
+</html>
