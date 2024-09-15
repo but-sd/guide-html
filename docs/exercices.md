@@ -2,8 +2,8 @@
 
 ## Fichiers de base pour les exercices
 
-- [index.html](./exercices-js/index.html)
-- [style.css](./exercices-js/style.css)
+- [index.html](./exercices-js/index-base.html)
+- [style.css](./exercices-js/style-base.css)
 
 ## Exercices Js
 
@@ -11,7 +11,7 @@
 
 Afin de récupérer l'élément h1, on peut utiliser la méthode `document.querySelector` qui permet de récupérer un élément en fonction de son sélecteur CSS. Dans notre cas, on peut utiliser le sélecteur `h1` pour récupérer l'élément h1.
 
-Il est aussi possible d'utiliser la méthode `document.getElementById` qui permet de récupérer un élément en fonction de son id. Dans notre cas, on peut utiliser l'id `title` pour récupérer l'élément h1. La méthode `document.getElementById` est plus rapide que la méthode `document.querySelector`, car elle ne parcourt pas tout le document. On peut aussie utiliser la méthode `document.querySelector` avec le sélecteur `#title` pour récupérer l'élément h1.
+Il est aussi possible d'utiliser la méthode `document.getElementById` qui permet de récupérer un élément en fonction de son id. Dans notre cas, on peut utiliser l'id `title` pour récupérer l'élément h1. La méthode `document.getElementById` est plus rapide que la méthode `document.querySelector`, car elle ne parcourt pas tout le document. On peut aussi utiliser la méthode `document.querySelector` avec le sélecteur `#title` pour récupérer l'élément h1.
 
 Une fois l'élément récupéré, on peut modifier son contenu avec la propriété `innerText`. Le signe `+=` permet d'ajouter du texte à la fin du contenu de l'élément.
 
@@ -275,3 +275,9 @@ Les données récupérées étant une liste d'utilisateurs, on peut ajouter une 
 
     });
     ```
+
+## Fichiers complets
+
+- [index.html](./exercices-js/index.html)
+- [style.css](./exercices-js/style.css)
+- [script.js](./exercices-js/script.js)

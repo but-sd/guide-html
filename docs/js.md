@@ -122,7 +122,7 @@ const person = new Person('John', 30);
 
 ## DOM
 
-Le DOM (Document Object Model) est une interface de programmation qui permet de manipuler les éléments html. Il permet d'ajouter, de modifier et de supprimer des éléments html.
+Le DOM (**D**ocument **O**bject **M**odel) est une interface de programmation qui permet de manipuler les éléments html. Il permet d'ajouter, de modifier et de supprimer des éléments html.
 
 ### Sélectionner un élément
 

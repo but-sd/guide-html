@@ -178,13 +178,19 @@ Il est possible d'ajouter du css dans un attribut style.
 
 Il existe plusieurs façons de définir une couleur en css.
 
-**Couleurs nommées**
+### Couleurs nommées
+
+Permet de définir simplement une couleur, mais il n'y a qu'un nombre limité de couleurs disponibles.
 
 ```css
 h1 {
   color: red;
 }
 ```
+
+### Notations de couleurs
+
+La notation de couleur permet de définir une couleur en fonction de différentes valeurs. Il existe plusieurs notations de couleurs : hexadécimale, rgb, hsl. Cela permet de définir une couleur de manière plus précise.
 
 **Couleurs hexadécimales**
 
